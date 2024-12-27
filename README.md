@@ -4,6 +4,24 @@
 
 ![](assets/images/etl-elt.svg)
 
+
+## Transformação
+
+### Dados faltantes
+
+- Exclusão de casos completos (listwise deletion)
+- Imputação
+
+### Dados duplicados
+
+![](assets/images/duplicated.png)
+
+
+### Validação e qualidade
+
+
+
+
 ## Modern Data Stack
 
 - Scalable

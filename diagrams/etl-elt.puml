@@ -26,8 +26,12 @@ footer Disponível em: https://github.com/acnaweb/data-engineering
 ***_ Definir: ferramenta
 ***_ Scripts ou No Code
 ***_ Environment: dev, test, prod
-***_ Implementar: transformação, regras de arredondamento
+***_ Transformação:
 ***_ Tem anonimização? PII?
+****_ regras de arredondamento
+****_ regras de data
+****_ regras monetárias
+****_ list of values
 
 **[#LightGray] Testes Unitários
 ***_ Testes por etapa

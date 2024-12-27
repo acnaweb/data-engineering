@@ -1,0 +1,62 @@
+@startmindmap
+
+title "ETL ELT"
+footer Disponível em: https://github.com/acnaweb/data-engineering
+
+*[#F8F8FF]  Life Cycle
+
+**[#LightGray] Requisitos de Negócio e Análise
+***_ Identificar:necessidade de processamento de DesignedDomainFontSize
+***_ Data sources: estrutura e qualidade
+***_ KPIs: janela de processamento, tempo máximo de carga
+***_ Tipo: Realtime/Batch
+***_ Diagrama de componentes
+***_ Diagrama de sequencia
+
+**[#LightGray] Planejamento e Design
+***_ Criar: modelo para DW ou hierarquia para Data Lake
+***_ Definir pipeline de dados: mapeamento entre source e target
+***_ Source: criar índices
+***_ Arquitetura do Job: hardware, software, rede, link (banda)
+***_ Software: fixar versão
+***_ Definir: ETL ou ELT
+***_ Schema + Data Contract
+
+**[#LightGray] Desenvolvimento do Job
+***_ Definir: ferramenta
+***_ Scripts ou No Code
+***_ Environment: dev, test, prod
+***_ Implementar: transformação, regras de arredondamento
+***_ Tem anonimização? PII?
+
+**[#LightGray] Testes Unitários
+***_ Testes por etapa
+***_ Testes integrados
+***_ Testes de aceitação do usuário
+
+**[#LightGray] Implementação (PROD)
+***_ Migrar o job para PROD
+***_ Executar 1 ou + ciclos de carga completa
+***_ Executar 1 ou + ciclos de carga incremental
+***_ Monitorar desempenho + ajustar recursos
+
+**[#LightGray] Documentação
+***_ Garantir: compreensão e manutenção
+***_ Futuras melhorias
+***_ Referencias para solução de problemas
+
+**[#LightGray] Monitoramento e Manutenção
+***_ Monitorar: logs
+***_ Corrigir: falhar, lentidão
+***_ Ajustar: transformações
+***_ Ajustar: novos dados
+***_ Ajustar: testes
+
+**[#LightGray] Auditoria, QA e Refinamento
+***_ Data Lineage
+***_ Conformidade com regulamentos 
+***_ QA: detectar e corrigir problemas
+***_ Refinar o processo
+
+@endmindmap
+

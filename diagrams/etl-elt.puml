@@ -15,6 +15,7 @@ footer Disponível em: https://github.com/acnaweb/data-engineering
 
 **[#LightGray] Planejamento e Design
 ***_ Criar: modelo para DW ou hierarquia para Data Lake
+***_ SCDs: regras 1 a 4 por dimensão
 ***_ Definir pipeline de dados: mapeamento entre source e target
 ***_ Source: criar índices
 ***_ Arquitetura do Job: hardware, software, rede, link (banda)
@@ -26,12 +27,13 @@ footer Disponível em: https://github.com/acnaweb/data-engineering
 ***_ Definir: ferramenta
 ***_ Scripts ou No Code
 ***_ Environment: dev, test, prod
-***_ Transformação:
 ***_ Tem anonimização? PII?
+*** Transformação
 ****_ regras de arredondamento
 ****_ regras de data
 ****_ regras monetárias
 ****_ list of values
+****_ unificação de chaves
 
 **[#LightGray] Testes Unitários
 ***_ Testes por etapa

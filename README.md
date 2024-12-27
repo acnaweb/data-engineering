@@ -16,11 +16,9 @@
 
 ![](assets/images/duplicated.png)
 
-
 ### Validação e qualidade
 
-
-
+![](assets/images/validation.png)
 
 ## Modern Data Stack
 

@@ -1,6 +1,5 @@
 # Data Engineering
 
-
 ## ETL e ELT
 
 ![](assets/images/etl-elt.svg)

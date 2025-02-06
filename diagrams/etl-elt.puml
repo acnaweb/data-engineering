@@ -9,9 +9,16 @@ footer Disponível em: https://github.com/acnaweb/data-engineering
 ***_ Identificar:necessidade de processamento de DesignedDomainFontSize
 ***_ Data sources: estrutura e qualidade
 ***_ KPIs: janela de processamento, tempo máximo de carga
-***_ Tipo: Realtime/Batch
+***_ Tipo de atualização: Realtime/Batch
+***_ Tipo de integração: Sincronização/Snapshot
 ***_ Diagrama de componentes
 ***_ Diagrama de sequencia
+*** Sincronização
+****_ Completa (data)
+****_ CDC (log) -> Auditoria, pequenas mudanças, suporta delete
+****_ Incremental (data) -> Contínua, somente das mudanças, não suporta delete
+****_ Incremental append (data) -> cursor timestamp (auditoria)
+****_ Incremental deduplicada (data) -> cursor PK (histórico)
 
 **[#LightGray] Planejamento e Design
 ***_ Criar: modelo para DW ou hierarquia para Data Lake
